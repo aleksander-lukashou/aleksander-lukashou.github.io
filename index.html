@@ -1,64 +1,140 @@
 <!DOCTYPE html>
-<html>
-   <head>
-      <style>
-        body {
-          background: rgb(204,204,204); 
-          width: 21cm;
-          height: 29.7cm;
-          margin: 0 auto;
-        }
-
-        page {
-          background: white;
-          display: block;
-          margin: 0 auto;
-          margin-bottom: 0.5cm;
-          position: relative;
-        }
-
-        page[size="A4"] {  
-          width: 21cm;
-          height: 29.7cm; 
-        }
-
-        @page {
-          size: 21cm 29.7cm;
-          margin: 0mm;
-        }
-      </style>
-   </head>
-   <body>
-    <page size="A4">
-        <div class="container">
-            <link rel="preconnect" href="https://fonts.googleapis.com">
-            <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-            <link href="https://fonts.googleapis.com/css2?family=Archivo+Narrow&family=Julius+Sans+One&family=Open+Sans&family=Source+Sans+Pro&display=swap" rel="stylesheet">
-            <div class="leftPanel">
-              <img src="avatar.png"/>
-              <div class="details">
-                <div class="item bottomLineSeparator">
-                  <h2>
-                    CONTACT
-                  </h2>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Expiriences and projects timeline</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 col-lg-8 offset-lg-2">
+              <article class="work-item">
+                <i class="work-icon fa fa-laptop"></i>
+                <h3 class="work-date">2024</h3>
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title"><a href="">Bird-eye-view SLAM</a></h5>
+                        <!-- <h6 class="card-subtitle"><a href="">link to company website</a></h6> -->
+                        <p class="card-text">Leading the development of an innovative feature integrating detected lanes and road markers into a comprehensive environmental map. This project involved collaboration with the Context‐Aware Scene Prediction Network to enrich navigational systems with precise, real‐time scene understanding and prediction capabilities.</p>
+                        <!-- <p class="card-text">Links to <a href="https://github.com/eugene-robb" target="_blank">GitHub</a> and project demo.</p> -->
+                    </div>
                 </div>
-                <div class="item bottomLineSeparator">
-                  <h2>
-                    SKILLS
-                  </h2>
+            </article>
+                <article class="education-item">
+                    <i class="work-icon fa fa-laptop"></i>
+                    <h3 class="education-date">2023</h3>
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title"><a href="">High-beam Assist</a></h5>
+                            <!-- <h6 class="card-subtitle"><a href="">link to website</a></h6> -->
+                            <p class="card-text">Leading the creation of a high beam assistant feature using machine learning to identify the light from oncoming traffic, enabling automatic adjustment from high to low beam. This development enhances night driving safety and comfort, showcasing a practical application of AI in improving automotive lighting systems</p>
+                            <!-- <p class="card-text">Links to <a href="https://github.com/eugene-robb" target="_blank">GitHub</a> and demo.</p> -->
+                        </div>
+                    </div>
+                </article>
+                <article class="education-item">
+                    <i class="work-icon fa fa-laptop"></i>
+                    <h3 class="education-date">2022</h3>
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title"><a href="">Object Verification</a></h5>
+                            <!-- <h6 class="card-subtitle"><a href="">link to website</a></h6> -->
+                            <p class="card-text">Leading a team of 10 developers in designing a machine learning algorithm that enhances road safety by reducing false positive detections of objects (e.g., shadows, projections, road markings) for autonomous vehicles. This initiative significantly improved detection accuracy, contributing to the advancement of autonomous driving technologies.</p>
+                            <!-- <p class="card-text">Link to <a href="https://github.com/eugene-robb" target="_blank">GitHub</a> and <a target="_blank" rel="noopener noreferrer">demo</a>.</p> -->
+                        </div>
+                    </div>
+                </article>
+                <article class="education-item">
+                    <i class="work-icon fa fa-laptop"></i>
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title"><a href="">Lane Detection</a></h5>
+                            <!-- <h6 class="card-subtitle"><a href="">link to website</a></h6> -->
+                            <!-- <p class="card-text text-muted">2011 - 2015</p> -->
+                            <p class="card-text">Led the development of an advanced real‐time system for detecting and tracking road markings, leveraging machine learning for enhanced accuracy and safety in autonomous navigation technologies.</p>
+                            <!-- <p class="card-text">Link to <a href="https://github.com/eugene-robb" target="_blank">GitHub</a> and demo.</p> -->
+                        </div>
+                    </div>
+                </article>
+                <article class="education-item">
+                    <i class="work-icon fa fa-laptop"></i>
+                    <h3 class="education-date">2021</h3>
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title"><a href="">Matchmaker</a></h5>
+                            <!-- <h6 class="card-subtitle"><a href="">link to website</a></h6>x§ -->
+                            <p class="card-text">Directed the technical development of a platform facilitating the matchmaking of contractors with clients in the home‐care sector, incorporating dynamic pricing and workload forecasting to optimize service delivery.</p>
+                            <!-- <p class="card-text">Link to <a href="https://github.com/eugene-robb" target="_blank">GitHub</a> and demo.</p> -->
+                        </div>
+                    </div>
+                </article>
+                <article class="education-item">
+                  <i class="work-icon fa fa-laptop"></i>
+                  <!-- <h3 class="education-date">2011</h3> -->
+                  <div class="card">
+                      <div class="card-body">
+                          <h5 class="card-title"><a href="">INPREDO</a></h5>
+                          <!-- <h6 class="card-subtitle"><a href="">link to website</a></h6>x§ -->
+                          <p class="card-text">Developed a novel software solution for dynamic road speed regulation based on real‐time traffic management data, illustrating a commitment to leveraging AI for public safety and efficiency.</p>
+                          <!-- <p class="card-text">Link to <a href="https://github.com/eugene-robb" target="_blank">GitHub</a> and demo.</p> -->
+                      </div>
+                  </div>
+              </article>
+              <article class="education-item">
+                <i class="work-icon fa fa-laptop"></i>
+                <!-- <h3 class="education-date">2011</h3> -->
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title"><a href="">INRED</a></h5>
+                        <!-- <h6 class="card-subtitle"><a href="">link to website</a></h6>x§ -->
+                        <p class="card-text">Pioneered a smart factory management system integrating software‐enhanced smart glasses to guide plant workers in selecting the correct parts, tools, and assembly techniques, demonstrating leadership in the intersection of AI and industrial IoT.</p>
+                        <!-- <p class="card-text">Link to <a href="https://github.com/eugene-robb" target="_blank">GitHub</a> and demo.</p> -->
+                    </div>
                 </div>
-                <div class="item">
-                  <h2>
-                    EDUCATION
-                  </h2>
+            </article>
+                <article class="education-item">
+                  <i class="work-icon fa fa-laptop"></i>
+                  <h3 class="education-date">2020</h3>
+                  <div class="card">
+                      <div class="card-body">
+                          <h5 class="card-title"><a href="">Smart Radar</a></h5>
+                          <!-- <h6 class="card-subtitle"><a href="">link to website</a></h6>x§ -->
+                          <p class="card-text">Engineered a multi‐target real‐time tracking system for smart radar applications, incorporating sensor fusion and camera‐based detection, highlighting expertise in AI‐enhanced surveillance and security technologies.</p>
+                          <!-- <p class="card-text">Link to <a href="https://github.com/eugene-robb" target="_blank">GitHub</a> and demo.</p> -->
+                      </div>
+                  </div>
+              </article>
+              <article class="education-item">
+                <i class="work-icon fa fa-laptop"></i>
+                <!-- <h3 class="education-date">2011</h3> -->
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title"><a href="">OCT Diagnostics</a></h5>
+                        <!-- <h6 class="card-subtitle"><a href="">link to website</a></h6>x§ -->
+                        <p class="card-text">Spearheaded the creation of a machine learning model for the analysis of Optical Coherence Tomography images, enabling the early detection and classification of retinal diseases, showcasing expertise in medical imaging and AI diagnostics.</p>
+                        <!-- <p class="card-text">Link to <a href="https://github.com/eugene-robb" target="_blank">GitHub</a> and demo.</p> -->
+                    </div>
                 </div>
+            </article>
+
+        <article class="education-item">
+          <i class="work-icon fa fa-laptop"></i>
+          <h3 class="education-date">2015-2019</h3>
+          <div class="card">
+              <div class="card-body">
+                  <h5 class="card-title"><a href="">Prevoius R&D Projects</a></h5>
+                  <!-- <h6 class="card-subtitle"><a href="">link to website</a></h6>x§ -->
+                  <p class="card-text"><b>Expertise in Object Detection and Tracking:</b> Demonstrated through the development of algorithms for camera‐based surveillance and drone object following, showcasing the ability to create systems that can accurately identify and follow objects in real‐time, across varying environments.</p>
+                  <p class="card-text"><b>Industrial Automation and Quality Control:</b> Proven capability in enhancing industrial processes, evident from work on camera verification systems for correct part placement in welding robots, and object detection and pose estimation for robotic gripping.</p>
+                  <p class="card-text"><b>Infrastructure Maintenance and Safety:</b> Experience in developing algorithms for the detection of road cracks and defects, and for traffic sign detection and classification. These projects illustrate ability to leverage AI in service of public safety and infrastructure maintenance, by enabling more accurate and efficient monitoring and response systems.</p>
               </div>
-            </div>
-          <div class="rightPanel">
           </div>
+      </article>
+            </div>
         </div>
-      </page>
-      <page size="A4">
-      </page>
-   </body>
+    </div>
+</body>
 </html>
